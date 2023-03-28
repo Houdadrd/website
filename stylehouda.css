@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+   background-color: #b89595;
+    color:bisque;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+color:rgb(177, 59, 59);
+font-weight: 800;
+font-family:sans-serif;
+}
+
+h2{
+    color:bisque;
+    padding: 30px 50px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    display: flex;
+    padding: 30px 50px;
+
+}
+h3{
+   
+    color: antiquewhite;
+    font-family: ;
+}
+
+p{
+    width: 500px;
+    padding: 40px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    color:rgb(114, 7, 7);
+    border-right: 1px solid #bbb;
+}
+
+.txt{
+    padding: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hero{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.hero img{
+    width: 350px;
+    border-radius: 12px;
+    height: auto;
+}
+
+.hero .right{
+   color: #b89595;
+    padding-top: 30px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.texte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.mydiv{
+    width: 300px;
+    padding-top: 30px;
+    text-align: center; 
+    position: relative;
+}
+/*section à propos*/
+.about{
+    display: flex;
+    padding: 90px;
+    text-align: center; 
+    background-color: #b89595; 
+    flex-direction: row; 
+}
+/*SECTION CONTAcT*/
+.contact{
+    display: flex;
+    padding: 80px;
+    text-align: center; 
+    background-color: #b89595; 
+    flex-direction: row; 
+     
+
+}
+form.form-example {
+    display: table;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+div.form-example {
+    display: table-row;
+    text-align: center;
+
+}
+
+label,input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+a[href^='mailto']::before {
+    content: ' ';
+    margin-bottom: 0.5rem;
+}
+
+a[href^='tel']::before {
+    content: ' ';
+    margin-bottom: 0.5rem;
+    
+}
+/*footer*/
+footer{
+    text-align: center;
+    
+}
